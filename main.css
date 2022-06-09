@@ -6,12 +6,18 @@
 }
 
 .home {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(assets/background.JPG);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+  }
+
+.background {
     /* Property 1=Default */
-
-
 position: absolute;
-width: 1080px;
-height: 1920px;
+width: 375px;
+height: 650px;
 left: 40px;
 top: 31px;
 
