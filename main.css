@@ -1,0 +1,19 @@
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+}
+
+.home {
+    /* Property 1=Default */
+
+
+position: absolute;
+width: 1080px;
+height: 1920px;
+left: 40px;
+top: 31px;
+
+background: #769CFF;
+}
