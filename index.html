@@ -6,14 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
+   
 </head>
 <body>
     <div id="home">
+        <!--Background-->
         <div class="background">
-            <span class="image fit"><img src="assets/background.JPG" alt="" /></span>
+            <span class="image fit"><img src="assets/" alt="" /></span>
         </div>
-        <h2>Sociality</h2>
-        <p>lil test</p>
+        <article class = "toptext">
+            <div class = "text">
+                <h2 style = "color: #000000; ">Sociality</h2>
+            </div>
+        </article>
+        <!--Navigation Buttons-->
+            <!--Home-->
+            <div class="square"></div>
+            <div class="triangle-up"></div>
+            <!--Search-->   
+            <div class="circle"></div>
+            <article class = "search">
+                <div class = rectangle>
+
+                </div>
+            </article>
+
+        <!--Profile button-->
+            <article class = profile>
+                <div class = circle>
+
+                </div>
+            </article>
+
+        <!--Surveys-->
+        <section>
+            <article class = "survey">
+                <div class ="rectangle">
+                    <div class = "content">
+                        
+                    </div>
+                </div>
+            </article>
+
+            <article class = "survey2">
+                <div class ="rectangle">
+                </div>
+            </article>
+
+            <article class = "survey3">
+                <div class ="rectangle">
+                </div>
+            </article>
+        </section>
+
+    </section>
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="twitter-scrolling.js"></script>
+
+    <script>
+        $("section").twitter_scroll(".avatar");
+    </script>
+
+
+
+        <!--New Survey-->
+            <article class = "newSurvey">
+                <div class = "rectangle">
+                    <article class = "text">
+                        <p style = "color: #000000;">New Survey</p>
+                    </article>
+                </div>
+            </article>
     </div>
 </body>
 </html>
