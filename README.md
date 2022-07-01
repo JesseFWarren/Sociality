@@ -42,6 +42,6 @@ Part 2: Log in interface
  and altering the main.dart file to adjust for these changes.
  The next big step in the project will be adding survey creation. It may be easier to handle this through a database that stores and pulls the information to the home   screen as needed. Additionally, this would make the sorting feature to sort by recent or most popular much more feasible.
  
- There is a document that contains a template for how the app looks and functions. This can also be used to understand how our ideas fit into the project.
+ There is a document that contains a framework/template for how the app looks and functions. This can also be used to understand how our ideas fit into the project.
  
  The code itself should not be too hard to understand. With a little flutter knowledge our decisions should make sense.
